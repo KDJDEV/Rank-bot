@@ -15,9 +15,9 @@ def ownsShirt(transactions, user_id):
 async def main():
     
     group = await client.get_group(group_id)
-
+    print('starting...')
     while True:
-        print('checking...')
+        
         transactions = await group.get_transactions()
         pages = await group.get_members()
         members = []
