@@ -39,7 +39,7 @@ async def main():
 
                     member = await group.get_member_by_id(user_id)
                     success = await member.setrole(250)
-        time.sleep(10)
+        time.sleep(60)
             
 
 
